@@ -1,0 +1,45 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.normsstuff.simpleserver.SimpleWebServerActivity" >
+
+    <item android:id="@+id/get_ip_address"
+        android:title="Set other's IP ..." />
+    
+    <item android:id="@+id/send_socket_msg"
+        android:title="Send message via socket" />
+    
+    <item android:id="@+id/send_multicast_msg"
+        android:title="Send message via multicast"  />
+    
+    <item android:id="@+id/clear_messages"
+        android:title="Clear Messages"  />
+    
+    <item 
+        android:id="@+id/set_wu_times"
+        android:title="Set Wakeup times ..." />
+    
+    <item android:id="@+id/start_repeated_wakeup" 
+        android:title="Start repeated wakeup" 
+        android:checkable="true"
+        android:visible="true" 
+        android:enabled="true" />
+     
+    <item 
+        android:id="@+id/set_test_alarm"
+        android:title="Set test alarm for 5 minutes" />"
+    
+     <item
+        android:id="@+id/action_settings"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+     <item 
+         android:id="@+id/help_topics"
+         android:title="Help Topics"  />"
+    
+    <item
+        android:id="@+id/About_ID"
+        android:title="About"  />
+    <item
+        android:id="@+id/Exit_ID"
+        android:title="Exit" />
+</menu>

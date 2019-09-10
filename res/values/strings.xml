@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pager For Norm</string>
+    
+    <string name="action_settings">Settings</string>
+    <string name="start_multicast">Start Multicast Listener</string>
+    <string name="start_serversocket">Start ServerSocket</string>
+    
+    <string name="pref_title_set_debug_text">Debug</string>
+    <string name="pref_summary_set_debug_text">Control debug output.</string>
+    <string name="set_debug_text_key">set_debug_text</string>
+ 
+	<string name="add_prefix_key">add_prefix_text</string>	
+	<string name="use_service_key">use service</string>
+	<string name="say_received_messages">Say received messages</string>
+	<string name="use_wakeup">Use wakeup to restart listening</string>
+</resources>

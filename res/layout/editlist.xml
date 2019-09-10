@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="wrap_content" 
+  android:orientation="vertical" 
+  android:layout_width="fill_parent">
+  <!--  HOW To make this wider??? -->
+    
+      <TextView
+        android:id="@+id/start_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Select item to edit" />
+    
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/start_info"
+        android:layout_above="@+id/buttonArea"
+        android:choiceMode="singleChoice" 
+        android:clickable="true"
+        android:singleLine="true"
+        android:textStyle="bold" >
+
+	</ListView>
+     
+      <LinearLayout
+         android:id="@+id/buttonArea"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_gravity="center_horizontal"
+         android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/upBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:enabled="false"
+                android:text="Up"
+                android:textAlignment="center" />
+
+            <!-- spacer -->
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#d5d5d5" />
+
+            <Button
+                android:id="@+id/downBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight=".5"
+                android:enabled="false"
+                android:text="Down"
+                android:textAlignment="center" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#d5d5d5" />
+            
+             <Button
+                android:id="@+id/deleteBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight=".5"
+                android:enabled="false"
+                android:text="Delete"
+                android:textAlignment="center" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#d5d5d5" />
+            
+             <Button
+                android:id="@+id/undoBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight=".5"
+               android:enabled="false"
+                android:text="Undo"
+                android:textAlignment="center" />
+
+             <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#d5d5d5" />
+            
+             <Button
+                android:id="@+id/editBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight=".5"
+                android:text="Edit"
+                android:enabled="false"
+                android:textAlignment="center" />
+             <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#d5d5d5" />
+            
+             <Button
+                android:id="@+id/addBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight=".5"
+                android:text="Add"
+                android:enabled="false"
+                android:textAlignment="center" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#d5d5d5" />
+            
+              <Button
+                android:id="@+id/saveBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textstyle1"
+                android:layout_weight=".5"
+                android:text="Save"
+                android:textAlignment="center" />
+              
+        </LinearLayout>
+ 
+</RelativeLayout>
